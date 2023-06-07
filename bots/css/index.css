@@ -20,10 +20,26 @@ header p {
 main {
     padding: 0px 8px;
     display: inherit;
+    width: max-content;
 }
+
 main h4 {
     font-weight: normal;
     margin: 0px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+main p {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+main hr {
+    display: block;
 }
 
 footer {
@@ -49,4 +65,16 @@ ul {
 
 a:visited {
     color: blue;
-  }
+}
+
+img {
+    float: left;
+    height: 45px;
+    margin: 8px;
+}
+
+#discordimg {
+    float: left;
+    height: 60px;
+    margin: 0;
+}
