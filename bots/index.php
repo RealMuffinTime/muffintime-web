@@ -18,18 +18,16 @@
                 <h4>fahrstuhlmusik#0251</h4>
                 <p>A bot which plays hours and hours elevatormusic.</p>
             </article>
-            <hr>
             <article>
                 <img src="images/emoji-dude.webp">
-                <h4>emoji dude#7404</h4><br>
+                <h4>emoji dude#7404</h4>
                 <p>A small utility bot, with some fun emoji stuff.</p>
             </article>
-            <hr>
             <article>
                 <img id="discordimg" src="images/discordlogo.svg">
-                <h4>Discord Support Server</h4><br>
+                <h4>Discord Support Server</h4>
                 <p><a href="https://discord.gg/Da9haye" target="_blank" rel="noopener">https://discord.gg/Da9haye</a></p>
-            </article></hr>
+            </article>
         </main>
         <?php include '../footer.php'?>
     </body>

@@ -18,23 +18,19 @@ header p {
 }
 
 main {
+    
     padding: 0px 8px;
     display: inherit;
-    width: max-content;
 }
 
 main h4 {
-    font-weight: normal;
     margin: 0px;
-    display: inline-block;
-    margin-left: 8px;
+    display: block;
     margin-top: 8px;
-    margin-bottom: 4px;
 }
 
 main p {
-    display: inline-block;
-    margin-left: 8px;
+    display: block;
     margin-top: 4px;
 }
 
@@ -61,7 +57,11 @@ p {
 ul {
     margin-top: 8px;
     padding-left: 30px;
-}  
+}
+
+article {
+   clear: both; 
+}
 
 a:visited {
     color: blue;
