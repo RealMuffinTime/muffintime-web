@@ -1,0 +1,9 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+p {
+    text-shadow: -1px -1px azure ;
+    margin: 8px;
+}
