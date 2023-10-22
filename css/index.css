@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 60em;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+main {
+    padding: 0px 8px;
+    flex: 1 0 auto;
+}
+
+main h4 {
+    margin: 0px;
+    padding-top: 8px;
+}
+
+article {
+    clear: both;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#bots {
+    display: flex;
+    min-height: 61px;
+}
+
+p {
+    margin: 8px 0px;
+}
+
+ul {
+    margin-top: 8px;
+    padding-left: 30px;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+img {
+    float: left;
+    width: 45px;
+    margin: 8px;
+    height: fit-content;
+}
+
+#discordimg {
+    width: 61px;
+    margin: 0;
+    padding-top: 3px;
+}
