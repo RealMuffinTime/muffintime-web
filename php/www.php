@@ -10,7 +10,7 @@
             <article>
                 <h4>Here you find some links to services provided:</h4>
                 <ul>
-                    <li>MuffinTime <a href="https://<?=$_SERVER['SERVER_NAME']?>.tk"><?=$_SERVER['SERVER_NAME']?></a></li>
+                    <li>MuffinTime <a href="https://<?=$_SERVER['SERVER_NAME']?>"><?=$_SERVER['SERVER_NAME']?></a></li>
                     <li>MuffinTime Bots <a href="https://bots.<?=$_SERVER['SERVER_NAME']?>">bots.<?=$_SERVER['SERVER_NAME']?></a></li>
                     <li>MuffinTime Minecraft Server <buttton tabindex="0">mc.muffintime.tk</buttton></li>
                     <li>MuffinTime Minecraft Map <a href="https://mc.<?=$_SERVER['SERVER_NAME']?>">mc.<?=$_SERVER['SERVER_NAME']?></a></li>
