@@ -28,7 +28,7 @@
                 </div>
             </article>
             <article>
-                <img id="discordimg" src="images/discordlogo.svg">
+                <img id="discordimg" src="images/discord.svg">
                 <div>
                     <h4>Discord Support Server</h4>
                     <p>

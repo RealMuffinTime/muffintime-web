@@ -51,13 +51,12 @@ a, a:visited {
 
 img {
     float: left;
-    width: 45px;
-    margin: 8px;
+    width: 46px;
+    margin: 9px;
     height: fit-content;
 }
 
 #discordimg {
-    width: 61px;
+    width: 64px;
     margin: 0;
-    padding-top: 3px;
 }
