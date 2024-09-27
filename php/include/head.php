@@ -1,5 +1,5 @@
 
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 <link rel="stylesheet" type="text/css" href="/css/index.css">
 <meta name="viewport" content="width=device-width">
 <meta charset="utf-8">

@@ -10,7 +10,7 @@
 		<div id="background">
 			<div id="container">
 				
-				<img src='images/gmod_logo_brave.png' class="bounce"/>
+				<img src='img/gmod_logo_brave.png' class="bounce"/>
 
 				<div>
 					<br/>

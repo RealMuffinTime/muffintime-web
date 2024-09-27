@@ -8,7 +8,7 @@
         <?php include 'include/header.php'?>
         <main>
             <article>
-                <img src="images/fahrstuhlmusik.webp">
+                <img src="img/fahrstuhlmusik.webp">
                 <div>
                     <h4>fahrstuhlmusik#0251</h4>
                     <p>
@@ -18,7 +18,7 @@
                 </div>
             </article>
             <article>
-                <img src="images/emoji-dude.webp">
+                <img src="img/emoji-dude.webp">
                 <div>
                     <h4>emoji dude#7404</h4>
                     <p>
@@ -28,7 +28,7 @@
                 </div>
             </article>
             <article>
-                <img id="discordimg" src="images/discord.svg">
+                <img id="discordimg" src="img/discord.svg">
                 <div>
                     <h4>Discord Support Server</h4>
                     <p>
