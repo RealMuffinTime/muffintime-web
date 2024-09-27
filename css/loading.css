@@ -35,7 +35,7 @@ body
 
 .reflection
 {
-	-webkit-box-reflect: below -1px gradient(linear, left top, left bottom, from(transparent), from(rgba(0, 0, 0, 0.0)), to(rgba(255, 255, 255, 0.5)));
+	-webkit-box-reflect: below -1px -webkit-linear-gradient(linear, left top, left bottom, from(transparent), from(rgba(0, 0, 0, 0.0)), to(rgba(255, 255, 255, 0.5)));
 }
 
 .progressbar .inner
@@ -127,8 +127,8 @@ body.dark
 {
 	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image: gradient( linear, 0 0, 90% 0, 100% 0, from( ), to( rgba( 0, 0, 0, 0 ) ), to( rgba( 0, 0, 0, 0 ) ) );
-	background-image: linear-gradient( left, rgba( 0, 0, 0, 0.4 ) 0%, rgba( 0, 0, 0, 0.03 ) 75%, rgba( 0, 0, 0, 0 ) 100% );
+	background-image: -linear-gradient( linear, 0 0, 90% 0, 100% 0, from( ), to( rgba( 0, 0, 0, 0 ) ), to( rgba( 0, 0, 0, 0 ) ) );
+	background-image: -webkit-linear-gradient( left, rgba( 0, 0, 0, 0.4 ) 0%, rgba( 0, 0, 0, 0.03 ) 75%, rgba( 0, 0, 0, 0 ) 100% );
 	padding: 20px;
 	padding-right: 180px;
 	visibility: hidden;
@@ -150,7 +150,6 @@ body.dark
 {
 	width: 128px;
 	height: 128px;
-	background: #666;
 	margin-right: 16px;
 }
 
