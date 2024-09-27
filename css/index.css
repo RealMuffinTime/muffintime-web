@@ -46,7 +46,11 @@ ul {
 }
 
 a, a:visited {
-    color: blue;
+    color: rgb(0, 69, 255);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 img {
