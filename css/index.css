@@ -15,9 +15,26 @@ header, footer {
     flex-shrink: 0;
 }
 
+header {
+    padding-bottom: 0;
+}
+
+footer {
+    padding-top: 0;
+}
+
+header hr {
+    margin-bottom: 0;
+}
+
+footer hr {
+    margin-top: 0;
+}
+
 main {
     padding: 0px 8px;
-    flex: 1 0 auto;
+    overflow: auto;
+    flex-grow: 1;
 }
 
 main h4 {
