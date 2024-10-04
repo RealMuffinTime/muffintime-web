@@ -32,7 +32,7 @@ switch ($subdomain) {
         break;
     case 'bots':
         switch ($filename) {
-            case 'emoji dude':
+            case 'emoji-dude':
                 include 'php/bots/emoji-dude.php';
                 break;
         
