@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/loading.css" />
 		<script src="js/jquery.js"></script>
 		<script src="js/head.js"></script>
+		<script src="js/loading.js"></script>
 	</head>
 	<body>
 
