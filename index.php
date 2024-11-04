@@ -12,12 +12,8 @@ switch ($subdomain) {
     case '':
     case 'www':
         switch ($filename) {
-            case 'fun':
-                include 'php/wwww/fun.php';
-                break;
-        
-            case 'morefun':
-                include 'php/www/morefun.php';
+            case 'loading':
+                include 'php/www/loading.php';
                 break;
         
             default:
