@@ -2,17 +2,15 @@
     <hr>
     You are here 
     <?php
+    require_once 'php/require/calculate.php';
 
-    if (!isset($domain)) {
-        require '../require/calculate.php';
-    }
     list($domain, $subdomain) = domains();
 
     if ($subdomain != "") {
-        echo '<a href="https://' . $domain . '.tk/" rel="noopener">' . $domain . '</a>';
-        echo ' > <a href="https://' . $subdomain . '.' . $domain . '.tk/" rel="noopener">' . $subdomain . '</a>';
+        echo '<a href="' . protocol() . $domain . '.tk/" rel="noopener">' . $domain . '</a>';
+        echo ' > <a href="' . protocol() . $subdomain . '.' . $domain . '.tk/" rel="noopener">' . $subdomain . '</a>';
     } else {
-        echo '<a href="https://' . $domain . '.tk/" rel="noopener">' . $domain . '</a>';
+        echo '<a href="' . protocol() . $domain . '.tk/" rel="noopener">' . $domain . '</a>';
     }
 
 
@@ -29,7 +27,7 @@
         for ($j=0; $j <= $i; $j++) {
             $urilink = $urilink . $uri[$j + 1] . "/";
         }
-        echo ' > <a href="https://' . $subdomain . $domain . '.tk/' . $urilink . ' "rel="noopener">' . urldecode($uri[$i + 1]) . '</a>';
+        echo ' > <a href="' . protocol() . $subdomain . $domain . '.tk/' . $urilink . ' "rel="noopener">' . urldecode(explode("?", $uri[$i + 1])[0]) . '</a>';
     }?>
     <br>
     Made with <span alt="love"><3</span> by MuffinTime.

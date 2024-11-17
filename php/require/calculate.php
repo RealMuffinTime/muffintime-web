@@ -10,4 +10,8 @@ function domains() {
     }
     return array($domain, $subdomain);
 }
+
+function protocol() {
+    return $_SERVER['REQUEST_SCHEME'] . '://';
+}
 ?>
