@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <head>
         <title>emoji dude | MuffinTime Bots</title>
         <?php include 'php/include/head.php'?>
     </head>
@@ -16,9 +15,9 @@
                     All Commands are enabled and all Events are disabled by default.
                 </p>
                 <p>
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=669888310507995136&permissions=2112&scope=bot" target="_blank" rel="noopener">Invite to your guild</a> - 
+                    <a href="https://discord.com/oauth2/authorize?client_id=580065523098976256&permissions=8&integration_type=0&scope=bot" target="_blank" rel="noopener">Invite to your guild</a> - 
                     <a href="https://discord.gg/Da9haye" target="_blank" rel="noopener">Discord server</a> - 
-                    <a href="https://github.com/RealMuffinTime/fahrstuhlmusik" target="_blank" rel="noopener">View source on GitHub</a>
+                    <a href="https://github.com/RealMuffinTime/emoji-dude" target="_blank" rel="noopener">View source on GitHub</a>
                 </p>
                 
                 <!-- Content tabs html based on https://www.mkdocs.org/ https://squidfunk.github.io/mkdocs-material/reference/content-tabs/-->
@@ -131,9 +130,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- <h3>Stats</h3> -->
-
             </article>
         </main>
         <?php include 'php/include/footer.php'?>
