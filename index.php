@@ -1,5 +1,5 @@
 <?php
-require 'php/calculate.php';
+require 'php/require/calculate.php';
 list($domain, $subdomain) = domains();
 
 if (array_key_exists('filename', $_GET)) {
@@ -12,6 +12,14 @@ switch ($subdomain) {
     case '':
     case 'www':
         switch ($filename) {
+            case 'fun':
+                include 'php/www/fun.php';
+                break;
+
+            case 'morefun':
+                include 'php/www/morefun.php';
+                break;
+
             case 'loading':
                 include 'php/www/loading.php';
                 break;

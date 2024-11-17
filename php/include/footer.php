@@ -4,7 +4,7 @@
     <?php
 
     if (!isset($domain)) {
-        require '../calculate.php';
+        require '../require/calculate.php';
     }
     list($domain, $subdomain) = domains();
 
