@@ -21,6 +21,12 @@
                 Discord <a href="https://discord.gg/mKBhEBgZfa">discord.gg/mKBhEBgZfa</a>
             </article>
             <article>
+                <h2>The MuffinTime Packs</h2> 
+                The MuffinTime Recourcepack <a href="https://modrinth.com/datapack/muffintime-resource-pack" target="_blank" rel="noopener">View Pack on Modrinth</a> - <a href="https://github.com/RealMuffinTime/muffintime-resource-pack" target="_blank" rel="noopener">View source on GitHub</a><br>
+                The MuffinTime Datapack <a href="https://modrinth.com/datapack/muffintime-data-pack" target="_blank" rel="noopener">View Pack on Modrinth</a> - <a href="https://github.com/RealMuffinTime/muffintime-data-pack" target="_blank" rel="noopener">View source on GitHub</a><br>
+                The MuffinTime Minecraft <a href="https://modrinth.com/collection/jmpgwvc1" target="_blank" rel="noopener">View Collection on Modrinth</a><br>
+            </article>
+            <article>
                 <h2>A customized Garry's Mod loading screen</h2>
                 <a href="<?php echo protocol() . $_SERVER['SERVER_NAME']?>/loading"><?=$_SERVER['SERVER_NAME']?>/loading</a>
             </article>
