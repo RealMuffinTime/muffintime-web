@@ -61,24 +61,13 @@ a:hover {
 }
 
 img {
-    float: left;
-    width: 46px;
-    margin: 9px;
-    height: fit-content;
+    float: right;
+    width: 50px;
+    margin: 5px;
 }
 
 h2 {
     margin-bottom: 0px;
-}
-
-#discordimg {
-    width: 64px;
-    margin: 0;
-}
-
-#bots {
-    display: flex;
-    min-height: 61px;
 }
 
 /* Content tabs css based on https://www.mkdocs.org/ https://squidfunk.github.io/mkdocs-material/reference/content-tabs/ */

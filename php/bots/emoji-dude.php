@@ -8,6 +8,7 @@
         <?php include 'php/include/header.php'?>
         <main>
             <article>
+                <img src="img/emoji-dude.webp">
                 <h2>emoji dude#7404</h2>
                 <p>
                     A tiny emoji writing and utility Discord bot in Phyton.<br>

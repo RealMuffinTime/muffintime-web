@@ -8,6 +8,7 @@
         <?php include 'php/include/header.php'?>
         <main>
             <article>
+                <img src="img/fahrstuhlmusik.webp">
                 <h2>fahrstuhlmusik#0251</h2>
                 <p>
                     A bot that plays elevator music for hours and hours.<br>
